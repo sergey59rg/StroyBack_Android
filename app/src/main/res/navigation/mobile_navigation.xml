@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/nav_home_fragment">
+    <fragment android:id="@+id/nav_home_fragment"
+        android:name="com.rbmstroy.rbmbonus.features.home.ui.HomeFragment"
+        android:label="HomeFragment">
+    </fragment>
+    <fragment android:id="@+id/nav_history_fragment"
+        android:name="com.rbmstroy.rbmbonus.features.history.ui.HistoryFragment"
+        android:label="ServicesFragment">
+    </fragment>
+    <fragment android:id="@+id/nav_confirmations_fragment"
+        android:name="com.rbmstroy.rbmbonus.features.confirmations.ui.ConfirmationsFragment"
+        android:label="NotificationsFragment">
+    </fragment>
+    <fragment android:id="@+id/nav_accept_fragment"
+        android:name="com.rbmstroy.rbmbonus.features.accept.ui.AcceptFragment"
+        android:label="AcceptFragment">
+    </fragment>
+    <fragment android:id="@+id/nav_notifications_fragment"
+        android:name="com.rbmstroy.rbmbonus.features.notifications.ui.NotificationsFragment"
+        android:label="NotificationsFragment">
+    </fragment>
+    <fragment android:id="@+id/nav_info_fragment"
+        android:name="com.rbmstroy.rbmbonus.features.info.ui.InfoFragment"
+        android:label="InfoFragment">
+    </fragment>
+    <fragment android:id="@+id/nav_promotion_fragment"
+        android:name="com.rbmstroy.rbmbonus.features.promotion.ui.PromotionFragment"
+        android:label="PromotionFragment">
+    </fragment>
+    <fragment android:id="@+id/nav_scan_fragment"
+        android:name="com.rbmstroy.rbmbonus.features.scan.ui.ScanFragment"
+        android:label="ScanFragment">
+    </fragment>
+    <fragment android:id="@+id/nav_scan_success_fragment"
+        android:name="com.rbmstroy.rbmbonus.features.scan.ui.ScanSuccessFragment"
+        android:label="ScanSuccessFragment">
+    </fragment>
+    <fragment android:id="@+id/nav_success_fragment"
+        android:name="com.rbmstroy.rbmbonus.features.success.ui.SuccessFragment"
+        android:label="SuccessFragment">
+    </fragment>
+    <fragment android:id="@+id/nav_error_fragment"
+        android:name="com.rbmstroy.rbmbonus.features.error.ui.ErrorFragment"
+        android:label="ErrorFragment">
+    </fragment>
+    <fragment android:id="@+id/nav_profile_fragment"
+        android:name="com.rbmstroy.rbmbonus.features.profile.ui.ProfileFragment"
+        android:label="ProfileFragment"/>
+    <fragment android:id="@+id/nav_awards_fragment"
+        android:name="com.rbmstroy.rbmbonus.features.awards.ui.AwardsFragment"
+        android:label="AwardsFragment">
+    </fragment>
+    <fragment android:id="@+id/nav_buy_fragment"
+        android:name="com.rbmstroy.rbmbonus.features.buy.ui.BuyFragment"
+        android:label="BuyFragment">
+    </fragment>
+    <fragment android:id="@+id/nav_authorization_fragment"
+        android:name="com.rbmstroy.rbmbonus.features.authorization.ui.AuthorizationFragment"
+        android:label="AuthorizationFragment"/>
+    <fragment android:id="@+id/nav_welcome_fragment"
+        android:name="com.rbmstroy.rbmbonus.features.registration.ui.WelcomeFragment"
+        android:label="WelcomeFragment"/>
+    <fragment android:id="@+id/nav_phone_fragment"
+        android:name="com.rbmstroy.rbmbonus.features.registration.ui.PhoneFragment"
+        android:label="PhoneFragment"/>
+    <fragment android:id="@+id/nav_confirm_fragment"
+        android:name="com.rbmstroy.rbmbonus.features.registration.ui.ConfirmFragment"
+        android:label="ConfirmFragment"/>
+    <fragment android:id="@+id/nav_congratulate_fragment"
+        android:name="com.rbmstroy.rbmbonus.features.registration.ui.CongratulateFragment"
+        android:label="CongratulateFragment"/>
+    <fragment android:id="@+id/nav_forgot_fragment"
+        android:name="com.rbmstroy.rbmbonus.features.reset.ui.ForgotFragment"
+        android:label="ForgotFragment"/>
+    <fragment android:id="@+id/nav_enter_fragment"
+        android:name="com.rbmstroy.rbmbonus.features.reset.ui.EnterFragment"
+        android:label="EnterFragment"/>
+    <fragment android:id="@+id/nav_reset_fragment"
+        android:name="com.rbmstroy.rbmbonus.features.reset.ui.ResetFragment"
+        android:label="ResetFragment"/>
+    <fragment android:id="@+id/nav_webview_fragment"
+        android:name="com.rbmstroy.rbmbonus.features.webview.ui.WebViewFragment"
+        android:label="WebViewFragment"/>
+</navigation>

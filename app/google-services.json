@@ -1,0 +1,84 @@
+{
+  "project_info": {
+    "project_number": "381489635027",
+    "project_id": "stroyback",
+    "storage_bucket": "stroyback.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:381489635027:android:cc9194784662af92497e26",
+        "android_client_info": {
+          "package_name": "com.rbmstroy.rbmbonus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "381489635027-oc054p9eofpour53htdq6uu65gkmk2ji.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpg80DVE06cskZyyU_pEGpstiEsu2fwDc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "381489635027-oc054p9eofpour53htdq6uu65gkmk2ji.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "381489635027-gidkb4rn276j74da09hecnrsr53enhs8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.rbmbonus.stroyback",
+                "app_store_id": "1644078102"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:381489635027:android:45cb7b1f626ce642497e26",
+        "android_client_info": {
+          "package_name": "com.rbmstroy.rbmbonus.stroyback"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "381489635027-oc054p9eofpour53htdq6uu65gkmk2ji.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpg80DVE06cskZyyU_pEGpstiEsu2fwDc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "381489635027-oc054p9eofpour53htdq6uu65gkmk2ji.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "381489635027-gidkb4rn276j74da09hecnrsr53enhs8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.rbmbonus.stroyback",
+                "app_store_id": "1644078102"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
